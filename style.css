@@ -1,0 +1,1093 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maincontainer {
+    position: absolute;
+    width: 100%;
+   height: 3000opx;
+     
+}
+
+.upperline {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    color: white;
+     width: 100%;
+     height:40px;
+     justify-content: center;
+     align-items:center ;
+}
+
+.upperline .up-p {
+    margin-right: 850px;
+   font-size: 19px;
+}
+
+.up-btn {
+    position: absolute;
+   margin-left: 1150px;
+}
+
+.up-btn button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.up-btn button a {
+   color: white;
+   text-decoration: none;
+}
+
+.upper-scnd-line {
+    margin-top: 40px;
+    position: sticky;
+     top: 0;
+    display: flex;
+    color: black;
+     width: 100%;
+     height:70px;
+     justify-content: center;
+     align-items:center ;
+  background-color: white;
+}
+
+ 
+
+.upper-scnd-p {
+    margin-right: 900px;
+}
+
+.upper-scnd-line button {
+    font-size: 19px;
+    border: none;
+    background: none;   
+}
+
+.upper-scnd-li .upper-scnd-li {
+    margin-right: 10px;
+}
+
+.upper-scnd-line button a {
+     text-decoration: none;
+     color: rgb(235, 25, 25);
+}
+
+
+/* ...........menu button hover........... */
+
+/* ..........btn1......... */
+.upper-scnd-line .btn-1 ::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 51px;
+    left: 83%;
+    bottom: 20%;
+    background-color: red;
+    width: 0%;
+    transition: 0.3s;
+
+}
+
+.upper-scnd-line .btn-1:hover ::after {
+    width: 51px;
+    transition: 0.3s;
+}
+
+/* ..........btn2......... */
+.upper-scnd-line .btn-2 ::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 45px;
+    left: 87.1%;
+    bottom: 20%;
+    background-color: red;
+    width: 0%;
+    transition: 0.3s;
+
+}
+
+.upper-scnd-line .btn-2:hover ::after {
+    width: 45px;
+    transition: 0.3s;
+}
+
+/* ..........btn3......... */
+.upper-scnd-line .btn-3 ::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 37px;
+    left: 90.7%;
+    bottom: 20%;
+    background-color: red;
+    width: 0%;
+    transition: 0.3s;
+
+}
+
+.upper-scnd-line .btn-3:hover ::after {
+    width: 37px;
+    transition: 0.3s;
+}
+
+/* ..........btn3......... */
+.upper-scnd-line .btn-4 ::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 64px;
+    left: 93.9%;
+    bottom: 20%;
+    background-color: red;
+    width: 0%;
+    transition: 0.3s;
+
+}
+
+.upper-scnd-line .btn-4:hover ::after {
+    width: 64px;
+    transition: 0.3s;
+}
+
+
+
+/* ........HOME ADD............. */
+
+.home-add {
+    
+    width: 100%;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-add .inbox {
+   
+     margin-top: -650px;
+    margin-left: 80px;
+    
+}
+
+.home-img img {
+    width: 100%;
+}
+
+.p-smr {
+    margin-bottom: 25px;
+    color: red;
+     
+}
+
+.p-Aspsl {
+    margin-top: 15px;
+    
+}
+
+ .h-full {
+font-size: 40px;
+letter-spacing: 5px;
+ }
+
+ .p-Aspsl {
+    letter-spacing: 1px;
+ }
+
+ .btn-add {
+    margin-top: 20px;
+    background: none;
+     border: none;
+     background-color: black;
+     padding: 18px 50px;
+ }
+
+ .btn-add a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+ }
+ 
+      
+ /* .........ALL HOVER BIX.........  */
+
+.all-hover-box {
+    display: flex;
+    
+    top: 50px;
+    width: 100%;
+    height: 650px;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ /* ........jaket box.......... */
+ 
+.jaket-box {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin-right: 40px;    
+}
+
+.jaket-box::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.849);
+    top: 80px;
+    opacity: 0;
+     transition: 0.2s ease-in-out;
+
+}
+
+.jaket-box:hover::after{
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.jaket-box:hover .jaket-content {
+    top: -72%;
+    left: 25%;
+    opacity: 1;
+     
+}
+
+.jaket-box img {
+   box-shadow: 0px 10px 7px 7px rgba(0, 0, 0, 0.185);
+    margin-top: 80px;
+    width: 350px;
+    height: 350px;
+}
+
+.jaket-content {
+    top: -72%;
+    left: 25%;
+    position: relative;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.2s ease-in-out;
+}
+
+.jaket-content p{
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+.jaket-content button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(233, 69, 96);
+    padding: 12px 30px;
+   margin-right: 8px;
+    margin-top: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.jaket-content button:hover {
+    background-color: #fff;
+    color:  rgb(233, 69, 96);
+    transition: 0.2s ease-in-out;
+}
+
+.jaket-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.jaket-content a:hover {
+    color:  rgb(233, 69, 96);
+}
+
+
+/* ....shoes box.... */
+
+.shoes-box {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.shoes-box::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.849);
+    top: 80px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+.shoes-box:hover::after {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.shoes-box img {
+    margin-top: 80px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 10px 7px 7px rgba(0, 0, 0, 0.185);
+}
+
+.shoes-content {
+    top: -66%;
+    left: 25%;
+    position: relative;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+}
+
+.shoes-box:hover .shoes-content {
+    top: -66%;
+    left: 25%;
+    opacity: 1;
+     
+}
+
+.shoes-content p{
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+.shoes-content button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(233, 69, 96);
+    padding: 12px 30px;
+   margin-right: 0px;
+    margin-top: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.shoes-content button:hover {
+    background-color: #fff;
+    color:  rgb(233, 69, 96);
+    transition: 0.2s ease-in-out;
+}
+
+
+.shoes-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.shoes-content a:hover {
+    color:  rgb(233, 69, 96);
+}
+
+
+
+/* .........cosma box......... */
+
+.cosma-box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+}
+
+.cosma-box::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.849);
+    top: 80px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+.cosma-box:hover::after {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.cosma-box img {
+    
+    margin-top: 80px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 10px 7px 7px rgba(0, 0, 0, 0.185);
+}
+
+
+.cosma-content {
+    top: -66%;
+    left: 25%;
+    position: relative;
+    color: #fff;
+    opacity: 0;
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+}
+
+.cosma-box:hover .cosma-content {
+    top: -66%;
+    left: 25%;
+    opacity: 1;
+     
+}
+
+.cosma-content p{
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+.cosma-content button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(233, 69, 96);
+    padding: 12px 30px;
+   margin-right: 0px;
+    margin-top: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.cosma-content button:hover {
+    background-color: #fff;
+    color:  rgb(233, 69, 96);
+    transition: 0.2s ease-in-out;
+}
+
+
+.cosma-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.cosma-content a:hover {
+    color:  rgb(233, 69, 96);
+}
+
+
+/* .......top-sels-box......... */
+
+.top-sales-box {
+    display: flex;
+    top: -100px;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-sales-box h2 {
+    position: absolute;
+     margin-top: -420px;
+     margin-right: 1140px;
+    color: black;
+}
+
+/* .........BOX1......... */
+
+.box1 {
+    margin-right: 80px;
+}
+
+.box1 img {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.box1 button {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 95, 115);
+    transition: 0.2s ease-in-out;
+    border: 1px solid  rgb(219, 95, 115);
+}
+
+.box1 button:hover {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    color: rgb(219, 95, 115);
+}
+
+.box1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box1 button:hover a {
+    color:  rgb(219, 95, 115);
+}
+
+/* .........box2......... */
+
+.box2 {
+    margin-right: 80px;
+}
+
+.box2 img {
+    width: 250px;
+    height: 250px;
+}
+
+.box2 button {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 95, 115);
+    transition: 0.2s ease-in-out;
+    border: 1px solid  rgb(219, 95, 115);
+}
+
+.box2 button:hover {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    color: rgb(219, 95, 115);
+}
+
+.box2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box2 button:hover a {
+    color:  rgb(219, 95, 115);
+}
+
+/* .........box3.......... */
+ 
+.box3 {
+    margin-right: 80px;
+}
+
+.box3 img {
+    width: 250px;
+    height: 250px;
+}
+
+.box3 button {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 95, 115);
+    transition: 0.2s ease-in-out;
+    border: 1px solid  rgb(219, 95, 115);
+}
+
+.box3 button:hover {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    color: rgb(219, 95, 115);
+}
+
+.box3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box3 button:hover a {
+    color:  rgb(219, 95, 115);
+} 
+
+ /* .........box4........ */
+
+.box4 img {
+    width: 250px;
+    height: 250px;
+}
+
+.box4 button {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 95, 115);
+    transition: 0.2s ease-in-out;
+    border: 1px solid  rgb(219, 95, 115);
+}
+
+.box4 button:hover {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    color: rgb(219, 95, 115);
+}
+
+.box4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box4 button:hover a {
+    color:  rgb(219, 95, 115);
+}
+
+.sale-1 {
+    width: 250px;
+    height: 250px;
+}
+
+.box4 .sale-p {
+     font-size: 13px;
+    position: relative;
+    top: -95%;
+    left: 1px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.box1 .sale-p {
+    font-size: 13px;
+   position: relative;
+    top: -240px;
+   background-color: black;
+   color: white;
+   width: 40px;
+   height: 20px;
+   justify-content: center;
+   align-items: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+}
+
+
+/* ............Fashion New Trends............. */
+
+.top-sales-box .LATEST {
+    position: absolute;
+     margin-top: -500px;
+     margin-right: 100px;
+    color: black;
+    color: red;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.top-sales-box .Fashion {
+    position: absolute;
+     margin-top: -420px;
+     margin-right: 100px;
+    color: black;
+}
+
+.box-tifin {
+    width: 300px;
+    height: 200px;
+    margin-left: 60px;
+}
+
+.fashion-img-1 {
+    width: 300px;
+    height: 200px;
+}
+ 
+.fashion-img-1 img {
+    width: 300px;
+    height: 200px;
+}
+
+.white-line {
+    position: relative;
+    height: 8px;
+    width: 250px;
+    background-color: #fff;
+    top: -5%;
+    margin-left: 15px;
+}
+
+
+/* ..............feb-12-1.................... */
+
+.feb-12-1{
+    width: 300px;
+    height: 200px;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.feb-12-1 p {
+   margin-left: 80px;
+   margin-top: 40px;
+}
+
+.feb-12-1 .what-1 {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.the-best-1 {
+    margin-left: 70px;
+}
+
+.feb-12-1 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+
+.feb-12-1 a:hover {
+    transition: 0.2s ease-in-out;
+    color: rgba(128, 128, 128, 0.966);
+}
+
+.feb-12-1 a::after {
+    content: "";
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 250px;
+    margin-top: 23px;
+   left: 16.5%;
+    transition: 0.3s;
+
+}
+
+.feb-12-1 a:hover::after{
+   width: 0%;
+}
+
+.feb-12-1 button {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+
+
+/* ..............feb-12-2.............. */
+
+.feb-12-2{
+    width: 300px;
+    height: 200px;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.feb-12-2 p {
+   margin-left: 80px;
+   margin-top: 40px;
+}
+
+.feb-12-2 .what-2 {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.the-best-2 {
+    margin-left: 70px;
+}
+
+.feb-12-2 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+
+.feb-12-2 a:hover {
+    transition: 0.3s ease-in-out;
+    color: rgba(128, 128, 128, 0.966);
+}
+
+.feb-12-2 a::after {
+    content: "";
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 250px;
+    margin-top: 23px;
+   left: 43%;
+    transition: 0.3s;
+
+}
+
+.feb-12-2 a:hover::after{
+   width: 0%;
+}
+
+.feb-12-2 button {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+
+
+/* ...........feb-12-3............ */
+
+.feb-12-3{
+    width: 300px;
+    height: 200px;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.feb-12-3 p {
+   margin-left: 80px;
+   margin-top: 40px;
+}
+
+.feb-12-3 .what-3 {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.the-best-3 {
+    margin-left: 85px;
+}
+
+.feb-12-3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+
+.feb-12-3 a:hover {
+    transition: 0.2s ease-in-out;
+    color: rgba(128, 128, 128, 0.966);
+}
+
+.feb-12-3 a::after {
+    content: "";
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 250px;
+    margin-top: 21px;
+   left: 70.5%;
+    transition: 0.3s;
+
+}
+
+.feb-12-3 a:hover::after{
+   width: 0%;
+}
+
+.feb-12-3 button {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 110px;
+    margin-top: 12px;
+}
+
+/* ...........form.............. */
+
+.form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text {
+    width: 70%;
+     margin-left: 60px;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.text h4 {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 60%;
+     margin-top: 40px;
+}
+
+.form-input textarea {
+    padding: 40px 40px;
+    
+}
+
+.form-input input {
+    padding: 20px 20px;
+}
+
+.form-input #email {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.form-input button {
+    position: relative;
+    margin-top: 15px;
+    background-color: black;
+     margin-right: 100px;
+     padding: 15px 30px;
+}
+
+.form-input a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ..........footer............. */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 480px;
+    
+}
+.footer-content {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+/* ..............footer-1........ */
+.footer-1 {
+    width: 300px;
+    height: 200px;
+  text-align: center;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.footer-1 p {
+    margin-top: 20px;
+}
+
+.footer-1 img {
+    margin-top: 20px;
+}
+
+/* ..............footer-2........ */
+.footer-2 {
+    text-align: center;
+    width: 150px;
+    height: 220px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.footer-2 p {
+    margin-top: 20px;
+}
+
+/* ..............footer-3........ */
+.footer-3 {
+    text-align: center;
+    width: 200px;
+    height: 220px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.footer-3  p {
+    margin-top: 20px;
+}
+
+
+/* ..............footer-4........ */
+.footer-4 {
+    text-align: center;
+    width: 250px;
+    height: 220px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.footer-4  p {
+    margin-top: 20px;
+}
+
+.footer-4 input {
+    margin-top: 20px;
+    padding: 10px 27px;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 17px;
+    outline: none;
+    color: #fff;
+}
+
+/* .........footer line............ */
+.footer-line-main {
+    width: 100%;
+    height: 70px;
+    padding: 40px;
+}
+.footer-line {
+    background-color: #fff;
+    width: 85%;
+    height: 1px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.footer-line-main p {
+   margin-right: 40px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center
+}
+
+
+/* ...............java........... */
+
+.top-sales-box.activeinfo {
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 5;  
+    /* transform: translate(-50%, -50%) scale(1); */
+}
+
+.home-add.activeinfo {
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 5;  
+}

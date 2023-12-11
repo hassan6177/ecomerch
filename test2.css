@@ -1,0 +1,5 @@
+#div1, #div2 {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+  }
